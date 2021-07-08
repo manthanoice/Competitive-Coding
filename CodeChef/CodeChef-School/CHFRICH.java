@@ -17,6 +17,6 @@ class Codechef
 	            int b = sc.nextInt();
 	            int x = sc.nextInt();
 	            System.out.println((b-a)/x);
-        }
+        	}
 	}
 }
