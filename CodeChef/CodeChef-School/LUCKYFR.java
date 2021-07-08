@@ -13,9 +13,9 @@ class Codechef
 		Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
 		while(t-->0){
-		    int n = sc.nextInt();
-    		int answer = 0;
-    		int count = 0;
+			int n = sc.nextInt();
+    			int answer = 0;
+	    		int count = 0;
     		while(n!=0){
     			answer = n%10;
     			n/=10;
