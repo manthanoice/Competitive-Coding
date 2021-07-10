@@ -12,7 +12,7 @@ class Codechef
 		// your code goes here
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		String s = (n%5==0 && n%6==0)?"YES":"NO";
+		String s = (n%5==0 || n%6==0)?"YES":"NO";
 		System.out.println(s);
 	}
 }
