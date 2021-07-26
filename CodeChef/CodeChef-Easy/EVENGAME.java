@@ -13,13 +13,20 @@ class Codechef
 		Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
 		while(t-->0){
-		    int n1 = sc.nextInt();
-		    int n2 = sc.nextInt();
-		    int count = 0;
-		    for(int i=n1; i<=n2; i++)
-		        if(i%10==2||i%10==3||i%10==9)
-		            count++;
-		    System.out.println(count);
+            int sum = 0;
+		    int n = sc.nextInt();
+		    int arr[] = new int[n];
+		    for(int i=0; i<n; i++){
+		        int x = sc.nextInt();
+		        sum+=x;
+		    }
+		    String s = (sum%2==0)?"1":"2";
+		    System.out.println(s);
+		  //  if(sum%2==0)
+		  //      System.out.println("1");
+		  //  else
+		  //      System.out.println("2");
+		  
 		}
 	}
 }
