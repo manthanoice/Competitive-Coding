@@ -17,9 +17,9 @@ class Codechef
 		    for(int i=0; i<6; i++){
 		        a[i] = sc.nextInt();
 		    }
-		    int sum1 = a[0]+a[1]+a[2];
-		    int sum2 = a[3]+a[4]+a[5];
-		    String s = (sum1>sum2)?"1":"2";
+// 		    int sum1 = a[0]+a[1]+a[2];
+// 		    int sum2 = a[3]+a[4]+a[5];
+		    String s = (a[0]+a[1]+a[2];>a[3]+a[4]+a[5];)?"1":"2";
 		    System.out.println(s);
 		}
 	}
