@@ -1,5 +1,7 @@
 /* package codechef; // don't place package name! */
 
+//Probably the simplest solution yeah whateverrrr
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
