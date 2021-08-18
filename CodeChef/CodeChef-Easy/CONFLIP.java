@@ -24,7 +24,7 @@ class Codechef
 		        else
 		            answer=n-n/2;
 		        System.out.println(answer);
-		    }
+			}
 		}
 	}
 }
